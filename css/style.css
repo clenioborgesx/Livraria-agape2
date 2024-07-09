@@ -1,0 +1,39 @@
+body{
+    background-image: url("https://img.freepik.com/fotos-gratis/biblioteca-com-livros_1063-98.jpg?t=st=1720185775~exp=1720189375~hmac=c74b17067cf5e66fb1e7f75c01b50d24bf7e186a6e90685c567ead9adf3c9b40&w=900");
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow: hidden;
+}
+header{
+    width: 100vw;
+    height: 60px;
+    background-color: black;
+}
+h1{
+    color: white;
+    position: absolute;
+    top: 2px;
+    left: 680px;
+    font-family: 'Courier New', Courier, monospace;
+    
+}
+ul{
+    list-style-type: none;
+    display: inline;
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+    cursor: pointer;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+#icon{
+    height: 45px;
+    width: auto;
+    right: 0;
+    position: absolute;
+    margin-right: 10px;
+    bottom: 40px;
+    cursor: pointer;
+}

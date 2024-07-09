@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Livraria Ágape</title>
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="shortcut icon" href="assets/logo.jpg" type="image/x-icon">
+  <script src="script.js" defer></script>
+  <style>
+    ul {
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+      overflow: hidden;
+      background-color: #333;
+      display: flex; /* Use flexbox for responsive layout */
+    }
+
+    li {
+      flex: 1; /* Make menu items evenly sized */
+    }
+
+    li a {
+      display: block;
+      color: white;
+      text-align: center;
+      padding: 14px 16px;
+      text-decoration: none;
+    }
+
+    li a:hover {
+      background-color: #111;
+    }
+
+    #dailyVerse {
+      margin-top: 20px;
+      padding: 20px;
+      background-color: #f0f0f0;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+    }
+
+    #verseText {
+      font-size: 18px;
+      font-weight: bold;
+    }
+
+    #verseReference {
+      color: #666;
+    }
+
+    @media (max-width: 768px) {
+      li {
+        
+      }
+
+      #dailyVerse {
+        padding: 10px;
+      }
+
+      #verseText {
+        font-size: 16px;
+      }
+    }
+
+    @media (max-width: 414px) {
+      #icon {
+        height: 35px;
+        bottom: 10px; /* Adjust bottom margin for smaller screens */
+      }
+
+      header h1 {
+        font-size: 24px;
+        display: inline-block;
+      }
+
+      body {
+        background-size: cover;
+        height: 100vh;
+        background-attachment: fixed;
+        width: 100vw;
+        background-position: center center;
+        overflow: hidden;
+      }
+      h1{
+        position: absolute;
+        left: 80px;
+      }
+      li{
+        height: 50px;
+        width: 50vw;
+        margin-left: 0%;
+        font-size: 14px;
+      }
+      #verseReference{
+          width: 100%;
+      }
+      ul{
+        display: block;
+        left: 100px;
+        position: absolute;
+      }
+      a{
+        text-decoration: none;
+        color: black;
+      }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Livraria Ágape</h1>
+  </header>
+  <ul>
+    <li><a href="pages/biblias.html">Bíblias</a></li>
+    <li><a href="pages/versiculo.html">Versículos</a></li>
+    <li><a href="pages/contato.html">Contato</a></li>
+    <li><a href="pages/igreja.html">Visite nossa igreja</a></li>
+  </ul>
+  <a href="https://wa.me/5585989821473?text=Quero%20saber%20sobre%20os%20produtos">
+    <img id
